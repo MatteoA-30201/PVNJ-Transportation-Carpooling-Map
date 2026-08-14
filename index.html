@@ -1,75 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v3.28.0/mapbox-gl.css" rel="stylesheet">
-    <link rel="preconn+ect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Mapbox GL JS map</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.28.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.28.1/mapbox-gl.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.28.0/mapbox-gl.css" rel="stylesheet">
+  <link rel="preconn+ect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.3.2/mapbox-gl-directions.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.3.2/mapbox-gl-directions.css" type="text/css">
 <body>
-  <div class="container-fluid">
-    <nav id="navbar-background" class="navbar pt-0 fixed-top navbar-expand-md">
-      <div class="topnav container-fluid">
-        <a class="navbar-brand" id="logo" href="index.html">
-          <img src="Photos\MA.png">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-container"
-          aria-controls="#navbar-container" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-container">
-          <ul class="navbar-nav">
-            <li class="skeuomorphic-buttons-navbar">
-              <a class="skeuomorphic-buttons heading-size-change">
-              PLACEHOLDER
-              </a>
-            </li>
-            <li class="skeuomorphic-buttons-navbar">
-              <a class="skeuomorphic-buttons heading-size-change">
-              PLACEHOLDER
-              </a>
-            </li>
-            <li class="skeuomorphic-buttons-navbar">
-              <a class="skeuomorphic-buttons heading-size-change">
-              PLACEHOLDER
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <div class="container-fluid">
-    <div class="homepage-position div-position row" id="Homepage">
-      <div class="col d-flex flex-column justify-content-center align-items-center" style="width: 100%; height: 100%;">
-        <div id="map" style="position: absolute; top: 0; bottom: 0; width: 100%; height: 100%;">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // creates the map, passing your access token to associate it with your Mapbox account, and setting the container, initial center, and zoom level
-    const map = new mapboxgl.Map({
-        accessToken: 'pk.eyJ1IjoibWF0dG9udGhlbW9vbiIsImEiOiJjbXNqOG5oNjYwZHg5MzRweTdybGd6amx1In0.EOwmeU1s_Tw118I1f8sf2Q',
-        container: 'map', // container ID
-        center: [-71.06776, 42.35816], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-        zoom: 9 // starting zoom
-    });
-  </script>
-  <script src="js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.28.0/mapbox-gl.js"></script>
+  <div id="map"></div>
+<script src="js/script.js"></script>
 </body>
 </html>

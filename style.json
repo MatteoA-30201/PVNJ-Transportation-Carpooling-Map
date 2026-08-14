@@ -1,0 +1,1125 @@
+{
+    "version": 8,
+    "name": "PVNJ Transportation/Carpooling Map",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:thumb": "data:image/webp;base64,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",
+        "mapbox:uiParadigm": "layers",
+        "mapbox:sdk-support": {
+            "js": "3.26.0",
+            "android": "11.26.0",
+            "ios": "11.26.0"
+        },
+        "mapbox:datasets": [
+            "mattonthemoon.ukpd7qqlsk4z",
+            "mattonthemoon.65dqzqtnqg64",
+            "mattonthemoon.qf598h17uwoa"
+        ],
+        "mapbox:groups": {
+            "d6f5c0d1306f2b18ec9438efaae4e801": {
+                "name": "SEPTA Regional Rail Stations",
+                "collapsed": false
+            },
+            "66b3173a0c487e27e4967c584accb1da": {
+                "name": "MTA Subway Lines",
+                "collapsed": false
+            },
+            "074b5127cfad91525818da147e6bf5aa": {
+                "name": "Park and Ride Locations",
+                "collapsed": true
+            },
+            "5a56a79c24ade4bcad2167d1e510ad89": {
+                "name": "Frank Pallone Event",
+                "collapsed": false
+            },
+            "dcb288333cada5fe91ac23dc76d269f1": {
+                "name": "DE Park and Ride Locations",
+                "collapsed": false
+            },
+            "0d6119c3b343fb7d971c3632508439ff": {
+                "name": "SEPTA Rail Stations",
+                "collapsed": false
+            },
+            "571e0ab3df8d5e18fa3f8ace397d4ea7": {
+                "name": "DE Train Stations",
+                "collapsed": false
+            },
+            "2069a58d0d77a52a335f60dac5e3430c": {
+                "name": "NY Train Station",
+                "collapsed": false
+            },
+            "50433d50e747697b5ed806706ec36a52": {
+                "name": "NYS Park and Ride Locations",
+                "collapsed": false
+            },
+            "86edcf3b38920f19547ad16a8d88f44c": {
+                "name": "Rail/Trolley/Subway  Lines",
+                "collapsed": true
+            },
+            "5f36eea3471e8d80860b8e8d019a1aa4": {
+                "name": "DE Rail Line",
+                "collapsed": false
+            },
+            "aa0624de7b83841a7ffaad73125fdb49": {
+                "name": "DE Bus Stops",
+                "collapsed": false
+            },
+            "981efd79c599d681609648c727818433": {
+                "name": "Train/Trolley/Subway Stations",
+                "collapsed": true
+            },
+            "bc753fea037e4023359d19c2d6d8d107": {
+                "name": "Bus Stations",
+                "collapsed": true
+            },
+            "ba815c10cf3e41781c9fe5d89f32d7df": {
+                "name": "SEPTA Regional Rail Lines",
+                "collapsed": false
+            },
+            "b696872ffcd8da889fd96c6c76a4fa67": {
+                "name": "NY Rail Lines",
+                "collapsed": false
+            },
+            "5ce85bc83db7bf507824ff21e0659adf": {
+                "name": "MTA Subway Stations",
+                "collapsed": false
+            },
+            "3118897f59ce1667adbc619e4197c759": {
+                "name": "SEPTA Rail Lines",
+                "collapsed": false
+            }
+        }
+    },
+    "bearing": 0,
+    "pitch": 0,
+    "terrain": null,
+    "imports": [
+        {
+            "id": "basemap",
+            "url": "mapbox://styles/mapbox/standard",
+            "config": {
+                "colorTrunks": "#29293d",
+                "colorRoadLabels": "#000000",
+                "colorPlaceLabels": "#000000",
+                "colorEducation": "#1b4568",
+                "colorGreenspace": "#d4e7f5",
+                "theme": "faded",
+                "show3dFacades": false,
+                "colorCommercial": "#e7dcb6",
+                "colorMedical": "#1b4568",
+                "colorLand": "hsl(20, 20%, 95%)",
+                "colorRoads": "#434d70",
+                "colorAdminBoundaries": "#ebafa9",
+                "colorWater": "rgba(40, 133, 204, 0.72)",
+                "lightPreset": "day",
+                "colorMotorways": "#303e4f",
+                "colorBuildings": "#daeaf6",
+                "colorIndustrial": "#1b4568"
+            }
+        }
+    ],
+    "sources": {
+        "mapbox://mattonthemoon.ukpd7qqlsk4z": {
+            "type": "vector",
+            "url": "mapbox://mattonthemoon.ukpd7qqlsk4z"
+        },
+        "mapbox://mattonthemoon.65dqzqtnqg64": {
+            "type": "vector",
+            "url": "mapbox://mattonthemoon.65dqzqtnqg64"
+        },
+        "mapbox://mattonthemoon.qf598h17uwoa": {
+            "type": "vector",
+            "url": "mapbox://mattonthemoon.qf598h17uwoa"
+        }
+    },
+    "sprite": "mapbox://sprites/mattonthemoon/cmsja28wx00k001s9ehrd8s16/b8fjw435hx85pp7j172f016pl",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "projection": {"name": "globe"},
+    "layers": [
+        {
+            "id": "6ac516e428c3912a408e (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "6ac516e428c3912a408e",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "1b843c4c01323a58a39c (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "1b843c4c01323a58a39c",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "75db6033f7a556e12431 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "75db6033f7a556e12431",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "456132a68df03febc549 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "456132a68df03febc549",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "c66810b80dadf498d55d (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "c66810b80dadf498d55d",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "650006d79c7549e53c34 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "650006d79c7549e53c34",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "7e3fd666a0e6f8eb507a (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "7e3fd666a0e6f8eb507a",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "ab11ba5944e5637a8259 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "ab11ba5944e5637a8259",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "aa600b00ba17ed078a43 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "aa600b00ba17ed078a43",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "9ccb3e50c80eeccce0a7 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "9ccb3e50c80eeccce0a7",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "82aca3b0c85f51fbd004 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "82aca3b0c85f51fbd004",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "acf0d4ab11ba86de7132 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "acf0d4ab11ba86de7132",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "6871d468660ad53e86ff (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "6871d468660ad53e86ff",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "aee816b664fa54ac84b5 (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "aee816b664fa54ac84b5",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "a1f1438c68e44634bd0d (1)",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "a1f1438c68e44634bd0d",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    1.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "9a8c99052d07b2f4af17",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "9a8c99052d07b2f4af17",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ],
+                "line-color": "#fdb515"
+            }
+        },
+        {
+            "id": "7481f470a078d0db16a5",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "7481f470a078d0db16a5",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-color": "#fdb515",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "88ad8974d256375c93ef",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "88ad8974d256375c93ef",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-color": "#fdb515",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "e6ed6f61448eb377e934",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "e6ed6f61448eb377e934",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-color": "#fdb515",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "b10c2ed8a40c1c61977b",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "b10c2ed8a40c1c61977b",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-color": "#fdb515",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "427368a368eb1e662024",
+            "type": "line",
+            "metadata": {"mapbox:group": "86edcf3b38920f19547ad16a8d88f44c"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "427368a368eb1e662024",
+            "slot": "",
+            "layout": {"line-cap": "round", "line-join": "round"},
+            "paint": {
+                "line-emissive-strength": 1,
+                "line-color": "#fdb515",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    0,
+                    0.5,
+                    16,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "fd3103996a7c8c67ccd6 (1)",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "fd3103996a7c8c67ccd6",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "STATION_ID"]],
+                "text-justify": "auto",
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ],
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "dc1011abf12bd6410e46 (1)",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "dc1011abf12bd6410e46",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "STATION"]],
+                "text-justify": "auto",
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ],
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "20a97c6cf1106127c0ea",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "20a97c6cf1106127c0ea",
+            "layout": {
+                "text-field": ["to-string", ["get", "StopName"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "a0738dbf256980ab7c62",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "a0738dbf256980ab7c62",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "Station_Na"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "9a1e5f4470c50afbc7e2",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "9a1e5f4470c50afbc7e2",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "Station"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "1d843a658ce52d708820",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "1d843a658ce52d708820",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "OBJECTID"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "1c73642a74a4c3d577e8",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "1c73642a74a4c3d577e8",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "station_name"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "a003f2222d3be5a80a53",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "981efd79c599d681609648c727818433"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "a003f2222d3be5a80a53",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "STATIONLABEL"]],
+                "text-justify": "auto",
+                "icon-size": 0.5,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "circle-stroked",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "74746d98117103710fe9 (1)",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "bc753fea037e4023359d19c2d6d8d107"},
+            "source": "mapbox://mattonthemoon.ukpd7qqlsk4z",
+            "source-layer": "74746d98117103710fe9",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "NAME"]],
+                "text-justify": "auto",
+                "icon-image": [
+                    "image",
+                    "bus",
+                    {"params": {"background": "#fdb515"}}
+                ],
+                "icon-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    0.3,
+                    16,
+                    1.25
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "05d6b705c0e58524fe71",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "bc753fea037e4023359d19c2d6d8d107"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "05d6b705c0e58524fe71",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "COUNTY"]],
+                "text-justify": "auto",
+                "icon-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    0.3,
+                    16,
+                    1.25
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "bus",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "c7db4ddbf03279e80665",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "074b5127cfad91525818da147e6bf5aa"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "c7db4ddbf03279e80665",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "OBJECTID"]],
+                "text-justify": "auto",
+                "icon-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    0.3,
+                    16,
+                    1.25
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "bus",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "f76dfe73a903e192143b",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "074b5127cfad91525818da147e6bf5aa"},
+            "source": "mapbox://mattonthemoon.qf598h17uwoa",
+            "source-layer": "f76dfe73a903e192143b",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "EXIT_"]],
+                "text-justify": "auto",
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    16,
+                    14
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    0.3,
+                    16,
+                    1.25
+                ],
+                "icon-image": [
+                    "image",
+                    "bus",
+                    {"params": {"background": "#fdb515"}}
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ca8b02"
+            }
+        },
+        {
+            "id": "Event Location",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "5a56a79c24ade4bcad2167d1e510ad89"},
+            "source": "mapbox://mattonthemoon.65dqzqtnqg64",
+            "source-layer": "94682f80b16ef1245792",
+            "layout": {
+                "icon-image": [
+                    "image",
+                    "cafe",
+                    {"params": {"background": "#09223a"}}
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "text-field": "Frank Pallone Event",
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    10,
+                    16
+                ]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#09223a"
+            }
+        },
+        {
+            "id": "Carpooling",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "5a56a79c24ade4bcad2167d1e510ad89"},
+            "source": "mapbox://mattonthemoon.65dqzqtnqg64",
+            "source-layer": "3a7246e4498ccb53d918",
+            "slot": "",
+            "layout": {
+                "text-field": ["to-string", ["get", "Discord Username"]],
+                "text-justify": "auto",
+                "text-size": [
+                    "interpolate",
+                    ["exponential", 1],
+                    ["zoom"],
+                    0,
+                    1,
+                    10,
+                    16
+                ],
+                "text-anchor": "top",
+                "text-offset": [0, 0.5],
+                "icon-image": [
+                    "image",
+                    "car",
+                    {"params": {"background": "#ce3728"}}
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"]
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "hsla(0, 0%, 100%, 1)",
+                "text-color": "#ce3728"
+            }
+        }
+    ],
+    "created": "2026-08-07T18:27:53.889Z",
+    "modified": "2026-08-13T05:15:40.852Z",
+    "id": "cmsja28wx00k001s9ehrd8s16",
+    "owner": "mattonthemoon",
+    "visibility": "private",
+    "protected": false,
+    "draft": false
+}
