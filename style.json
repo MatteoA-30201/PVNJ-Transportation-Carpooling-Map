@@ -123,7 +123,7 @@
             "type": "vector",
             "url": "mapbox://mattonthemoon.ukpd7qqlsk4z"
         },
-        "mapbox://mattonthemoon.65dqzqtnqg64": {
+        "carpools": {
             "type": "vector",
             "url": "mapbox://mattonthemoon.65dqzqtnqg64"
         },
@@ -1052,7 +1052,7 @@
             "id": "Event Location",
             "type": "symbol",
             "metadata": {"mapbox:group": "5a56a79c24ade4bcad2167d1e510ad89"},
-            "source": "mapbox://mattonthemoon.65dqzqtnqg64",
+            "source": "carpools",
             "source-layer": "94682f80b16ef1245792",
             "layout": {
                 "icon-image": [
@@ -1084,7 +1084,7 @@
             "id": "Carpooling",
             "type": "symbol",
             "metadata": {"mapbox:group": "5a56a79c24ade4bcad2167d1e510ad89"},
-            "source": "mapbox://mattonthemoon.65dqzqtnqg64",
+            "source": "carpools",
             "source-layer": "3a7246e4498ccb53d918",
             "slot": "",
             "layout": {
