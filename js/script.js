@@ -48,16 +48,16 @@ script.onload = function () {
   map.on("sourcedata", function (e) {
     if (
       map.getSource("mapbox://mattonthemoon.65dqzqtnqg64", {
-        sourceLayer: "bcf1118021a2cec6e2b8",
+        sourceLayer: "fbe4f741907debe366fe",
       }) &&
       map.isSourceLoaded("mapbox://mattonthemoon.65dqzqtnqg64", {
-        sourceLayer: "bcf1118021a2cec6e2b8",
+        sourceLayer: "fbe4f741907debe366fe",
       })
     ) {
       console.log("source loaded!");
       var features = map.querySourceFeatures(
         "mapbox://mattonthemoon.65dqzqtnqg64",
-        { sourceLayer: "bcf1118021a2cec6e2b8" },
+        { sourceLayer: "fbe4f741907debe366fe" },
       );
 
       for (let i = 0; i < features.length; i++) {
